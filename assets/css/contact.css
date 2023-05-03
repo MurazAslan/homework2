@@ -1,0 +1,189 @@
+body {
+    background-image: url(../image/download.png);
+
+}
+
+
+header {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.2);
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu,
+.menu1 {
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.menu {
+    width: 40%;
+    padding-left: 10px;
+
+}
+
+.menu h1 {
+    background-color: #4aaaa5;
+    box-sizing: border-box;
+    padding: 7px 20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu1 {
+    width: 60%;
+
+
+}
+
+
+.ul li a {
+    text-decoration: none;
+    color: rgba(99, 99, 99, 0.5);
+    font-size: 10px;
+}
+
+.ul li a:hover {
+    color: #fff;
+    background-color: grey;
+}
+
+.ul li {
+    text-align: center;
+
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    margin: auto 1px;
+    padding: 7px 10px;
+}
+
+.ul li+li::before {
+    content: "|";
+    margin-right: 10px;
+    color: rgba(99, 99, 99, 0.1);
+    font-size: 10px;
+}
+
+.bolme {
+    position: relative;
+    left: 40px;
+    height: 270px;
+    width: 50%;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.konteyner h2 {
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.3);
+    padding: 5px;
+    margin: 10px;
+    color: #4aaaa5;
+
+}
+
+.konteyner1 ul li {
+    color: rgba(99, 99, 99, 0.7);
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.konteyner1 ul li label {
+    position: relative;
+    left: 6px;
+    margin: 10px;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 3px;
+}
+
+.konteyner1 ul li input {
+    margin: 5px;
+    float: left;
+
+    right: 100px;
+}
+
+li textarea {
+    margin: 5px;
+    float: left;
+    height: 50px;
+    right: 100px;
+}
+
+#submit {
+    color: #fff;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    margin: 3px;
+}
+
+.kecid {
+    border: 0.5px solid rgba(99, 99, 99, 0.3);
+    position: absolute;
+    right: 70px;
+    top: 77px;
+    background-color: #fff;
+    padding: 10px;
+    width: 150px;
+}
+
+.sag h2 {
+
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.3);
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+.sag-asagi {
+
+    height: 20px;
+}
+
+.sag-asagi a img {
+
+    width: 40px;
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    margin: 1px;
+
+}
+
+.alt {
+
+    position: absolute;
+    height: 40px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #333
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 15px;
+    font-size: 7px;
+}

@@ -1,0 +1,219 @@
+body {
+    background-image: url(../image/download.png);
+
+}
+
+
+header {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.2);
+}
+
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu,
+.menu1 {
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.menu {
+    width: 40%;
+    padding-left: 10px;
+
+}
+
+.menu h1 {
+    background-color: #4aaaa5;
+    box-sizing: border-box;
+    padding: 7px 20px;
+    margin-left: 30px;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu1 {
+    width: 60%;
+
+
+}
+
+
+.ul li a {
+    text-decoration: none;
+    color: rgba(99, 99, 99, 0.5);
+    font-size: 12px;
+}
+
+.ul li a:hover {
+    color: #fff;
+    background-color: grey;
+}
+
+.ul li {
+    text-align: center;
+
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    margin: auto 1px;
+    padding: 7px 10px;
+}
+
+.ul li+li::before {
+    content: "|";
+    margin-right: 10px;
+    color: rgba(99, 99, 99, 0.1);
+}
+
+section {
+    background-color: #fff;
+    position: absolute;
+
+    left: 40px;
+    margin: 20px auto;
+    border: 0.5px solid rgba(99, 99, 99, 0.1);
+    clear: both;
+    width: 50%;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.merkez {
+    height: 120px;
+    margin: 20px 20px;
+}
+
+.merkez h2 {
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.3);
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px;
+
+    color: #4aaaa5;
+}
+
+#cat,
+.merkez3 p {
+
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    float: left;
+}
+
+#cat {
+    position: absolute;
+    top: 20px;
+    width: 30%;
+
+}
+
+.merkez3 p {
+    left: 115px;
+    top: 20px;
+    font-size: 10px;
+    color: rgba(99, 99, 99, 0.7);
+    box-sizing: border-box;
+    line-height: 12px;
+    width: 40%;
+    height: 50px;
+    padding-left: 5px;
+
+}
+
+.metn {
+    position: absolute;
+    top: 80px;
+    bottom: 7px;
+    left: 10px;
+    right: 50px;
+
+
+    box-sizing: border-box;
+
+    float: left;
+}
+
+.metn p {
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: rgba(99, 99, 99, 0.7);
+    line-height: 10px;
+
+}
+
+.kecid {
+    position: absolute;
+
+    left: 500px;
+    width: 20%;
+    height: 60px;
+}
+
+.sag h2 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    border-bottom: 0.5px solid rgba(99, 99, 99, 0.3);
+    text-align: center;
+    margin: 3px;
+    padding: 3px;
+}
+
+.sag-asagi {
+    position: absolute;
+    top: 20px;
+    right: 13px;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+
+.sag-asagi a img {
+
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+.alt {
+    border-top: 1px solid #4aaaa5;
+    color: #fff;
+    background-color: rgba(33, 33, 33, 0.7);
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+
+    height: 20px;
+}
+
+.alt footer {
+    font-size: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    padding-top: 7px;
+}
